@@ -11,6 +11,7 @@ describe("Repositories", () => {
         title: "Umbriel",
         techs: ["Node", "Express", "TypeScript"]
       });
+    console.log("response", response.body)
 
     expect(isUuid(response.body.id)).toBe(true);
 
